@@ -1,7 +1,6 @@
 ---
 - name: Deploy /etc/hosts from repo (AWX)
-  hosts: all
-  become: true
+  hosts: localhost
   gather_facts: false
 
   vars:
