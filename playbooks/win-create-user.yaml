@@ -1,6 +1,7 @@
 ---
 - name: create a windows user
   hosts: win
+  gather_facts: false
   tasks: 
     - name: create windows users
       win_user:
