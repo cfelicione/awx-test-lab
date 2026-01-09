@@ -1,6 +1,7 @@
 ---
 - name: create user
   hosts: redhat
+  gather_facts: false
   vars:
     username: anna
   tasks:
