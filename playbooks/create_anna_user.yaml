@@ -1,6 +1,6 @@
 ---
 - name: create user
-  hosts: ansible1
+  hosts: redhat
   vars:
     username: anna
   tasks:
